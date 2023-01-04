@@ -96,3 +96,4 @@ def creating_model(X, y):
 
 if __name__ == "__main__":
     df, X, y = preprocess_files(os.listdir('files'))
+    train_accuracy, val_accuracy = creating_model(X, y)
